@@ -1,4 +1,6 @@
-
+#build-a-blog
+#Github address:
+#https://github.com/emeznar/build-a-blog.git
 import webapp2, cgi, jinja2, os, re
 from google.appengine.ext import db
 from datetime import datetime
