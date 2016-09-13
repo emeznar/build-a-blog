@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+{% for Add_Post in New_Posts %}
+        <div class = "Add_Post-subject"><a href="/blog/{{(Add_Post.key().id())}}">{{Add_Post.subject}}</a></div><br>
+
+        <div class = "Add_Post-content">{{Add_Post.content}}</div><br><br><br/>
+
+    </div>
+
+{% endfor %}
+
+{% endblock %}

@@ -7,7 +7,12 @@ threadsafe: true
 handlers:
 - url: /.*
   script: main.app
-  
+- url: /new_post
+  script: main.app
+- url: /blog/<id:\d+>
+  script: main.app
+
+
 libraries:
 - name: webapp2
   version: "2.5.2"

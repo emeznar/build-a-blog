@@ -1,0 +1,33 @@
+<style type="text/css">
+    body {
+        font-family: sans-serif;
+        width: 800px;
+        margin: 0 auto;
+        pading: 10px;
+    }
+    .error {
+        color: red;
+    }
+    label {
+        display: block;
+        font-size: 20px;
+    }
+    input[type=text] {
+        width: 400px;
+        font-size: 20px;
+        padding: 2px;
+    }
+    textarea {
+        width: 400px;
+        height: 200px;
+        font-size: 17px;
+        font-family: monospace;
+    }
+    iput[type=submit] {
+        font-size: 48px;
+    }
+    hr {
+        margin:20 px auto;
+    }
+
+</style>
